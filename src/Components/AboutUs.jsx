@@ -22,7 +22,7 @@ const AboutUs = () => {
           initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: "easeOut" }}
-          className="relative z-10  rounded-xl p-6 md:p-8  max-w-3xl text-left shadow-xl"
+          className="relative z-10 bg-gray-800 bg-opacity-50 backdrop-blur-lg rounded-xl p-6 md:p-8  max-w-3xl text-left shadow-xl"
         >
           <motion.p 
             initial={{ opacity: 0, x: -20 }} 
